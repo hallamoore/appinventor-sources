@@ -146,6 +146,12 @@ public interface Images extends Resources {
   ImageResource listbox();
 
   /**
+   * Designer palette item: logger component
+   */
+   @Source("com/google/appinventor/images/logger.png")
+   ImageResource loggerComponent();
+  
+  /**
    * Designer palette item: orientationsensor component
    */
   @Source("com/google/appinventor/images/orientationsensor.png")
