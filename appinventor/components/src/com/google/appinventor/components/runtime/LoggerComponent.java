@@ -77,7 +77,7 @@ public class LoggerComponent extends AndroidNonvisibleComponent
       Log.d(LOG_TAG, "I got onPause and my Logger Component was ENABLED?!!!");
     }
     else {
-      //shouldn't log when disabled
+      //shouldn't log when Logger is disabled
     }
   }
   
@@ -87,7 +87,7 @@ public class LoggerComponent extends AndroidNonvisibleComponent
       Log.d(LOG_TAG, "I got onResume and my Logger Component was ENABLED?!!!");
     }
     else {
-      //shouldn't log when disabled
+      //shouldn't log when Logger is disabled
     }
   }
 }
